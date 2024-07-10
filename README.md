@@ -36,3 +36,6 @@ npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent
 npm run dev
 node server.js
 ```
+
+Note:
+Please note that this application is currently not responsive and is best viewed on desktop or larger screens.

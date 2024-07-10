@@ -15,7 +15,7 @@ This Video-To-GIF-Converter web app is built using React.js and Express.js. It p
 ```
 git clone https://github.com/DileepGhanta/Video-To-GIF-Converter.git
 ```
-- Go to directory
+- Change directory
 
 ```
 cd Video-To-GIF-Converter
@@ -24,7 +24,7 @@ cd Video-To-GIF-Converter
 ```
 npm install
 ```
-- Install Dependency 
+- Install Dependencies 
 ```
 npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent-ffmpeg multer node-fetch react react-dom react-dropzone react-icons styled-components sweetalert
 ```

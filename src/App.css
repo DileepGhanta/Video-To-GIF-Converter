@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main{
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main h1{
+  background: linear-gradient(87.87deg, #ff7f50 28.76%, #ffd1a4 142.64%);
+  background-clip: text;
+  -webkit-background-clip: text ; 
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+

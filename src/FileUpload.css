@@ -1,0 +1,169 @@
+.drag-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 244, 235);
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ff8c00;
+}
+
+.drag-and-drop-box:hover {
+    border: 2px dashed rgb(207, 117, 20);
+}
+
+.after-file-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 400px;
+    width: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ff8c00;
+    position: relative;
+}
+
+.after-file-upload:hover{
+    cursor: default;
+}
+.instructions {
+    font: 18px "DM Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.uploaded-file-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 25px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.delete-icon:hover{
+    background-color: rgb(253, 244, 235);
+}
+.arrow{
+    font-size: 20px;
+    color:#878997;
+    margin-left: 5px;
+    transition: all 0.5s ease-out;
+}
+
+.file-name {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1475cf;
+}
+
+.upload-button{
+    background:linear-gradient(87.87deg, #ff7f50 28.76%, #ffd1a4 142.64%);
+    color: #fff;
+    border-radius: 99px;
+    line-height: 1rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 38px;
+    width: 130px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 575px;
+    width: 970px;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 18px #f9cc94;
+}
+
+.create-btn{
+  height: 45px;
+  width: 160px;
+  border-radius: 99px;
+  background-color: white;
+  color:#878997;
+  border: 1px solid #f9cc94;
+  outline: none;
+  font-family: "DM Sans",sans-serif;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+}
+
+.create-btn:disabled{
+  cursor: no-drop;
+}
+
+.create-btn:not(:disabled){
+    background:linear-gradient(87.87deg, #ff7f50 28.76%, #ffd1a4 142.64%) ;
+    color: white;
+    border: none;
+}
+
+.create-btn:not(:disabled):hover{
+    box-shadow:  0px 0px 12px #fbc37f;
+}
+.create-btn:not(:disabled) .arrow {
+    color: white;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1040px){
+    .main-box{
+        flex-direction: column;
+        height: 680px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .app{
+        height: 820px;
+        width: 600px;
+    }
+    .uploaded-file-container {
+        width: 500px;
+        height: 300px;
+    }
+    .drag-and-drop-box {
+        height: 300px;
+        width: 500px;
+    }
+    .after-file-upload{
+        height: 400px;
+        width: 500px;
+    }
+    .instructions {
+        font: 18px "DM Sans", sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .upload-button{
+        font-size: 1.2rem;
+        font-weight: 500;
+        height: 45px;
+        width: 160px;
+    }
+}

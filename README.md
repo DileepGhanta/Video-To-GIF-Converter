@@ -14,7 +14,6 @@ This Video-To-GIF-Converter web app is built using React.js and Express.js. It p
 
 ```
 git clone https://github.com/DileepGhanta/Video-To-GIF-Converter.git
-
 ```
 - Go to directory
 
@@ -24,17 +23,14 @@ cd Video-To-GIF-Converter
 - Install node_modules 
 ```
 npm install
-
 ```
 - Install Dependency 
 ```
 npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent-ffmpeg multer node-fetch react react-dom react-dropzone react-icons styled-components sweetalert
-
 ```
 - Install ffmpeg
 ```
 Download ffmpeg from [ffmpeg](https://www.ffmpeg.org/download.html), install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
-
 ```
 - Start LocalHost Server
 ```

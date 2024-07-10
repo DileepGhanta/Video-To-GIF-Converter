@@ -1,3 +1,12 @@
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 
 <h1 align="center">🎥 Video-To-GIF-Converter 🎥</h1>
 
@@ -28,10 +37,9 @@ npm install
 ```
 npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent-ffmpeg multer node-fetch react react-dom react-dropzone react-icons styled-components sweetalert
 ```
-- Install ffmpeg 
-```
-Download ffmpeg from [ffmpeg](https://www.ffmpeg.org/download.html), install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
-```
+
+- Download ffmpeg from [ffmpeg](https://www.ffmpeg.org/download.html), install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
+
 - Start LocalHost Server & Express server
 ```
 npm run dev

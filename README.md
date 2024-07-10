@@ -28,11 +28,11 @@ npm install
 ```
 npm install @ffmpeg/core @ffmpeg/ffmpeg bootstrap cors express file-saver fluent-ffmpeg multer node-fetch react react-dom react-dropzone react-icons styled-components sweetalert
 ```
-- Install ffmpeg
+- Install ffmpeg 
 ```
-Download ffmpeg from [ffmpeg](https://www.ffmpeg.org/download.html), install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
+Download ffmpeg from ffmpeg, install it for Windows, extract the folder, rename it to ffmpeg, copy the bin folder path, and add the path to environment variables.
 ```
-- Start LocalHost Server
+- Start LocalHost Server & Express server
 ```
 npm run dev
 node server.js

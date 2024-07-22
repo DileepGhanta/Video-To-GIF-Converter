@@ -131,39 +131,3 @@
 .create-btn:not(:disabled) .arrow {
     color: white;
 }
-
-@media screen and (min-width: 700px) and (max-width: 1040px){
-    .main-box{
-        flex-direction: column;
-        height: 680px;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .app{
-        height: 820px;
-        width: 600px;
-    }
-    .uploaded-file-container {
-        width: 500px;
-        height: 300px;
-    }
-    .drag-and-drop-box {
-        height: 300px;
-        width: 500px;
-    }
-    .after-file-upload{
-        height: 400px;
-        width: 500px;
-    }
-    .instructions {
-        font: 18px "DM Sans", sans-serif;
-        font-size: 1.3rem;
-        font-weight: 500;
-    }
-    .upload-button{
-        font-size: 1.2rem;
-        font-weight: 500;
-        height: 45px;
-        width: 160px;
-    }
-}

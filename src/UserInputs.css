@@ -67,28 +67,3 @@ label{
     color: #2A2A4B;
 }
 
-@media screen and (min-width: 700px) and (max-width: 1040px){
-    .user-inputs{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width:400px;    
-        gap:20px;
-    }
-    p{
-        font-size: 18px;
-    }
-    label{
-        font-size: 20px;
-    }
-    .duration{
-        justify-content: space-around;
-    }   
-    
-    #start-time,#end-time{
-        text-align: center;
-    }
-    input{
-        margin-top: 3px;
-    }
-}
